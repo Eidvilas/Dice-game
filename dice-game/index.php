@@ -7,7 +7,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Cars</title>
+    <title>Dice game</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -33,43 +33,47 @@
         <div class="row">
             
             <div class="col-md-3"></div>
-            <div class="col"><h3>roll a dice, two matching dices - 10 ct win. </h3></div>
+            <div class="col"><h3>roll dice, two matching dice - 10 ct win. </h3></div>
         </div>
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-2">
-            </div>
-            <div class="col">
-                <img src="images/1.png" alt="Mountain View">
-            </div>
             <div class="col">
             </div>
             <div class="col">
-                <img src="images/1.png" alt="Mountain View">
+                <img id="dice1" src="images/1.png" alt="Mountain View">
             </div>
-            <div class="col">
-            </div>
-             <div class="col">
-                <img src="images/1.png" alt="Mountain View">
-            </div>
-             <div class="col-md-2">
-            </div>
-        </div>
-        <div class="row" id="">
-            <div class="col-md-5"></div>
-            <div class="col btn btn-primary btn-lg" id="newGame" >New Game</div>
-            <div class="col-md-5"></div>
-        </div>
-        <div class="row" id="">
-            <div class="col-md-5"></div>
-            <div class="col btn btn-primary btn-lg" id="rollDice" style="display: none;" >Roll dice</div>   
-            <div class="col-md-5"></div>
-        </div>
-        
 
+            <div class="col">
+                <img id="dice2" src="images/1.png" alt="Mountain View">
+            </div>
+            
+             <div class="col">
+                <img id="dice3" src="images/1.png" alt="Mountain View">
+            </div>
+            <div class="col">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+            </div>
+            <div class="col">
+                <button class="col btn btn-primary btn-lg" id="newGame" >New Game</button>
+            </div>
+            <div class="col">
+                <button class="col btn btn-primary btn-lg" id="rollDice" style="display: none;" >Roll dice</button>
+            </div>
+            <div class="col">
+                <div>
+                    <h3 id="yourWin">Your win:</h3><h2 id="yourWin2"> 0 ct</h2>
+                </div>
+            </div>
+            <div class="col">
+            </div>
+        </div>
     </div>
-    
+    <button id="iii">stat array</button>
+    <p id="ggg"></p>
 <script src="js/app.js"></script>
 </body>
 </html>

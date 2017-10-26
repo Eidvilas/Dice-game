@@ -5,9 +5,19 @@
 
 #newGame {
 	
-	margin: 50px 0 0 0;
+	margin: 20px 0 0 0;
 }
 
 #rollDice {
 	margin: 20px 0 0 0;
+}
+
+#yourWin {
+    margin: 20px 0 0 0;
+    float:left;
+}
+
+#yourWin2 {
+    margin: 20px 0 0 0;
+    float:left;
 }
